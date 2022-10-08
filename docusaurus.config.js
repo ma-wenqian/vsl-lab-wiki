@@ -100,7 +100,7 @@ const config = {
               },
               {
                 label: '微信公众号',
-                href: 'https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzkxMDMxMzc3Nw==&mid=2247486204&idx=1&sn=e965fb6b389821c37f70b1b515d3b469',
+                href: 'http://rjdf5iod1.hn-bkt.clouddn.com/img/VSL-Wechat.png',
               },
             ],
           },
@@ -118,7 +118,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} VSL, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
