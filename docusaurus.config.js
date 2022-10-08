@@ -38,15 +38,9 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.dev/ma-wenqian/vsl-lab-wiki/blob/main/docs/',
+            'https://github.com/ma-wenqian/vsl-lab-wiki/edit/main/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
+       
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
@@ -78,11 +72,11 @@ const config = {
             label: 'Tutorial',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            href: 'https://github.com/ma-wenqian/vsl-lab-wiki',
+            label: 'GitHub',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -101,25 +95,25 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Bilibili',
+                href: 'https://space.bilibili.com/2040235889/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: '微信公众号',
+                href: 'https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzkxMDMxMzc3Nw==&mid=2247486204&idx=1&sn=e965fb6b389821c37f70b1b515d3b469',
               },
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/ma-wenqian/vsl-lab-wiki',
               },
             ],
           },

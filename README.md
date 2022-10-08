@@ -1,41 +1,21 @@
-# Website
+# 项目介绍
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+本仓库创建于2022年10月，希望搭建一个VSL课题组打印机在线使用指南。
 
-```
-$ yarn
-```
+## 部署说明
 
-### Local Development
+文档采用markdown语法编写于main分支，采用[Docusaurus 2](https://docusaurus.io/)利用[GitHub Action](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-set-ssh-private-key-deploy_key)部署在gh-pages分支。
 
-```
-$ yarn start
-```
+部署的时候有个小问题，记录在个人博客了，有兴趣的可以来交流一下。
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 访问
 
-### Build
+可通过 GitHub[原始路径](https://ma-wenqian.github.io/vsl-lab-wiki/)访问，或者[自定义域名](https://vsl.browq.com)。
 
-```
-$ yarn build
-```
+https://ma-wenqian.github.io/vsl-lab-wiki/
+https://vsl.browq.com
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 致谢
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+感谢@DQ @LXY帮我收集整理网站内容，也感谢提供资源的每一位老师同学。
