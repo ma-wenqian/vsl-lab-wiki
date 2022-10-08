@@ -28,7 +28,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.HEXO_DEPLOY_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           # 要发布到 `gh-pages` 分支的构建输出：
           publish_dir: ./build
           # 下面两行会将此次部署 commit 的作者设置为官方的
