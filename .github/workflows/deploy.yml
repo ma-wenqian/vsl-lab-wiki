@@ -8,8 +8,8 @@ on:
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 jobs:
-  deploy:
-    name: Deploy to GitHub Pages
+  page:
+    name: Deploy to GitHub Pages & Azure Pages
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -38,6 +38,7 @@ jobs:
           # 你可以用自己的用户信息替换它们。
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
+
      - name: Deploy to Azure-pages
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
