@@ -75,9 +75,9 @@ sidebar_position: 1
         <td><img src="/img/20221007155117.png" /></td>
     </tr>
     <tr>
-        <td rowspan="6"><td>Bambu Lab【2台】</td>
+        <td rowspan="2">Bambu Lab【2台】</td>
         <td>①</td>
-        <td><img src="/img/20221007155311.png"/></td>
+        <td rowspan="2"><img src="/img/20221007155311.png"/></td>
     </tr>
     <tr>
         <td>②</td>
