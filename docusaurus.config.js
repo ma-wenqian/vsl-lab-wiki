@@ -100,7 +100,7 @@ const config = {
               },
               {
                 label: '微信公众号',
-                href: 'http://rjdf5iod1.hn-bkt.clouddn.com/img/VSL-Wechat.png',
+                href: '/img/VSL-Wechat.png',
               },
             ],
           },

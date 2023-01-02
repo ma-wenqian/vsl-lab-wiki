@@ -11,10 +11,10 @@
 
 ## 访问
 
-可通过 GitHub[原始路径](https://ma-wenqian.github.io/vsl-lab-wiki/)访问，或者[自定义域名](https://vsl.browq.com)。
+可通过 GitHub[原始路径](https://ma-wenqian.github.io/vsl-lab-wiki/)访问，或者[Azure香港节点](https://vsl.browq.com)。
 
-https://ma-wenqian.github.io/vsl-lab-wiki/
-https://vsl.browq.com
+https://ma-wenqian.github.io/vsl-lab-wiki/  
+https://vsl.browq.com （推荐此链接）
 
 ## 致谢
 
