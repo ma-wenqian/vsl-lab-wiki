@@ -39,7 +39,7 @@ jobs:
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
 
-     - name: Deploy to Azure-pages
+      - name: Deploy to Azure-pages
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
